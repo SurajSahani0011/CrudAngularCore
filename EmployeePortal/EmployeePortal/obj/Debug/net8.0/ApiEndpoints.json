@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeController",
+    "Method": "EmployeeList",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vm",
+        "Type": "EmployeePortal.Models.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
